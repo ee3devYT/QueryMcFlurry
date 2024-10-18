@@ -185,8 +185,8 @@ Please read our [Contributing Guidelines](CONTRIBUTING.md) for more details.
 
 If you need help or have any questions:
 
-- Join our [Discord server](https://discord.gg/YOUR_INVITE_LINK)
-- Open an [issue](https://github.com/yourusername/QueryMcFlurry/issues)
+- Join our [Discord server](https://discord.gg/VbrtYa2x9M)
+- Open an [issue](https://github.com/ee3devYT/QueryMcFlurry/issues)
 
 ## 📝 License
 
