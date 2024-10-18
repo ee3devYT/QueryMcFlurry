@@ -81,7 +81,7 @@ Events allow your bot to react to Discord events. To create a new event:
 2. Use the following template:
 
 ```typescript
-import { Event, QueryMcFlurry } from "@base/classes";
+import { Event, QueryMcFlurry } from "@classes";
 
 export default class Ready extends Event<'ready'> {
   constructor(client: QueryMcFlurry) {
@@ -114,8 +114,8 @@ Commands are the primary way users interact with your bot. To create a new comma
 2. Use the following template:
 
 ```typescript
-import { Command, QueryMcFlurry } from "@base/classes";
-import { Category } from "@base/enums";
+import { Command, QueryMcFlurry } from "@classes";
+import { Category } from "@enums";
 import { Reply } from "@helpers";
 import type { CommandInteraction } from "oceanic.js";
 
