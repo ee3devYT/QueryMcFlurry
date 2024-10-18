@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    // Enable latest features
+    "lib": ["ESNext", "DOM"],
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleDetection": "force",
+    "jsx": "react-jsx",
+    "allowJs": true,
+
+    // Bundler mode
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "noEmit": true,
+
+    "baseUrl": ".",
+    "paths": {
+      "@base/*": ["./src/base/*"],
+      "@classes": ["./src/base/classes"],
+      "@typings": ["./src/base/typings"],
+      "@constants": ["./src/utils/constants"],
+      "@utils/*": ["./src/utils/*"],
+      "@helpers": ["./src/utils/helpers"],
+      "@enums": ["./src/base/enums"],
+      "@loggers": ["./src/utils/helpers/loggers"],
+      "@prisma": ["./prisma/client.ts"]
+    },
+
+    // Best practices
+    "strict": true,
+    "skipLibCheck": true,
+    "noFallthroughCasesInSwitch": true,
+
+    // Some stricter flags (disabled by default)
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noPropertyAccessFromIndexSignature": false
+  }
+}

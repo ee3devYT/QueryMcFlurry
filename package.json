@@ -1,0 +1,31 @@
+{
+  "name": "querymcflurry",
+  "module": "./src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "prisma": "^5.21.1"
+  },
+  "scripts": {
+    "lint": "eslint 'src/**/*.{ts,js}'",
+    "lint:fix": "eslint 'src/**/*.{ts,js}' --fix",
+    "format": "prettier --write 'src/**/*.{ts,js,json,md}'",
+    "dev": "bun . --watch",
+    "studio": "prisma studio",
+    "migrate": "prisma migrate dev",
+    "generate": "prisma generate"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.21.1",
+    "chalk": "4.1.2",
+    "console-table-printer": "^2.12.1",
+    "dotenv": "^16.4.5",
+    "glob": "^11.0.0",
+    "mongoose": "^8.7.1",
+    "oceanic.js": "^1.11.2",
+    "zod": "^3.23.8"
+  }
+}
